@@ -3,8 +3,8 @@
 <head>
 <link rel="stylesheet" href="style.css">
 </head>
-<body onload="pageLoad()">
-<select id="files" multiple>
+<body onload="pageLoad()" onresize="correctTextareaSize()">
+<select id="files" multiple onchange="selectChange()">
 <option name="file1.txt">file1.txt</option>
 <option name="script.js">script.js</option>
 <option name="python_script.py">python_script.py</option>
