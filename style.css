@@ -1,0 +1,15 @@
+textarea {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  font-family: monospace;
+  font-size: 1em;
+  resize: none;
+}
+textarea:focus {
+  outline: none;
+}
